@@ -27,7 +27,7 @@ const Order = () => {
     return (
         <div>
              <Helmet>
-                <title>Bistro Boss | Menu</title>
+                <title>Bistro Boss | Order Food</title>
             </Helmet>
             <Cover img={orderCoverImg} title="Order Food"></Cover>
             <Tabs className="justify-center items-center" defaultIndex={tabIndex} onSelect={(index) => setTabIndex(index)}>
